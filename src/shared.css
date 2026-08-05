@@ -1,0 +1,140 @@
+/* Shared styles */
+
+.kp-card { /* outer box */
+  width: 220px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #222;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-sizing: border-box;
+}
+
+.kp-card h2,
+.kp-card h3 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: #000;
+}
+
+.kp-row { /* for aligning children in a row */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.kp-button {
+  align-items: center;
+  appearance: none;
+  background-color: #3EB2FD;
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd,sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.kp-button:hover {
+  background: #3a5ce0;
+}
+
+/* Variant: floating card injected into the page by content.js */
+.kp-card--floating {
+  position: fixed;
+  top: 10px;
+  right: 110px;
+  z-index: 2147483647;
+  width: 260px;
+}
+
+.kp-card--floating::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  right: 16px;
+  border-width: 0 8px 8px 8px;
+  border-style: solid;
+  border-color: transparent transparent #ffffff transparent;
+}
+
+.kp-close {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  background: none;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  color: #888;
+  padding: 0;
+}
+
+.kp-close:hover {
+  color: #222;
+}
+
+.kp-card--popup {
+  min-height: 370px;
+}
+
+#logoIcon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 15px;
+}
+
+#logoIcon2 {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#logoIcon svg {
+    width: 32px;
+    height: 32px;
+}
+
+#logoIcon2 svg {
+    width: 50px;
+    height: 50px;
+}
+
+#resume, #scanner {
+  margin-top: 15px;
+}
+
+#resume h2, #scanner h2 {
+  font-size: 16px;
+}
+
+#output2 {
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+
+}
