@@ -23,7 +23,7 @@ I also wanted some way to notify the users when they were on a job post, and I c
 ### Future features
 I would hope to add more proactive features, like recommendations on how you can improve your resume in general, or to appeal to a particular employer's job post, instead of the tool being purely reactionary.  
 I would probably add a way to disable/enable the notification box popup entirely so it isn't obnoxious.
-I would also maybe switch to a stronger model for better and faster results, and focus more on manual security for user data than relying on local storage. 
+I would also maybe switch to a stronger open model for better and faster results. 
 
 ### Prerequisites 
 This extension uses Chrome's built-in Gemini Nano model, which is still 
