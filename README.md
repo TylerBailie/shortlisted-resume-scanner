@@ -4,7 +4,7 @@
 **Tech stack:** JavaScript · Chrome Extension API · Gemini Nano
 
 ### What it does
-A resume and job post scanner that grades how well a job post matches a resume using AI. The user inputs a resume and a job post, and an AI returns a few bullet points explaining the key comparisons between the two documents, and a visual diagram with an overall match score.  
+A resume and job post scanner that grades how well a job post matches a resume using AI. The user inputs a resume and a job post, and an AI returns a few bullet points explaining the key comparisons between the two documents, and a visual diagram with an overall match score. Can be accessed as either a webpage or a browser extension. 
 
 I acknowledge the limited scope and utility of the project. This was a small learning project to learn a new programming language, practice handling user data and AI calls, and to build something real with UI outside the terminal for the first time.  
 
